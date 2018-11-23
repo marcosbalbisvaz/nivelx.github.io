@@ -1,0 +1,73 @@
+	h1{ 
+		width: 100%;
+		font-family:Chakra Petch;
+		font-size: 55px;
+		margin-top: 100px;
+		background-color: rgba(44, 35, 81, 0.8);
+		color: #C8FE1C;
+		text-align: center;
+		letter-spacing: 5px;
+		}
+	#gamecont{
+			width: 1000px;
+			height: auto;
+			position: relative;
+			left:150px;;
+			font-family: kanit;
+			font-size: 24px;
+			margin-top: 50px;
+			border-radius: 100px;
+			border-bottom: solid 4px #FFFF;
+			background-color: rgba(22, 10, 76,0.3);
+			text-align: center;
+			color:#FFFF;}
+	#gamecont h2{
+		font-family: Chakra Petch;
+		text-align: center;
+		letter-spacing: 4px;
+	}
+	.game {
+		position:relative;
+		display: inline-block;
+		margin-left: 30px;
+		margin-right: 30px;
+		border:8px solid rgba(255, 243, 2,0.6)
+			}
+	.game h4{
+		font-family: Chakra Petch;
+		text-align: center;
+		color: rgb(255, 243, 2);
+	}
+	.game p{ 
+		background-color: rgba(255, 243, 2,0.6); 
+		font-family: Open Sans;
+		color:black;
+		font-size: 18px;
+			}
+	.game img{
+		width: 220px;
+		height: 320px;
+	}
+	.game:hover{
+		border:8px solid rgba(255, 243, 2,1);
+
+	}
+	@media screen and (max-width: 800px){
+		#gamecont{
+			width: 80%;
+			height:auto;
+			margin: 0;
+			left: 90px;
+			margin-top: 20px;
+		}
+		.game{width: 48%;
+			display: inline-block;
+			margin-top: 30px;
+		}
+	}
+	@media screen and (max-width:599px){
+		#gamecont{left: 45px;
+	}
+	@media screen and  (min-width:470px){
+		.game{width: 60%;
+	}

@@ -1,0 +1,85 @@
+			main{
+				width: 70%;
+				height: 50%;
+				border:0.5px solid #FFF;
+				margin: auto;
+				margin-top: 100px;
+				margin-bottom: 100px;
+				background-color:rgba(11, 6, 106, 0.8);
+			}
+			section{
+				color:#FFF;
+				font-family: open sans;
+				font-size: 20px;
+				text-align: center;
+			}
+			h1{
+			}
+			form{
+				color: #FFFF;
+				font-family: open sans;
+				width: 45%;
+				border:1px solid #CCC;
+				margin:auto;
+				padding: 20px;
+				margin-top: 50px;
+				margin-bottom: 100px;
+				background-color: rgba(11, 6, 106, 0.8);
+			}
+			label,{
+				color: #FFF;
+				background-color: rgba(156,0,0, 0.8);
+				font-size: 18px;
+				display: block;
+				width: 100%;
+			}
+			textarea{
+			resize: vertical;
+			max-height: 300px;
+			min-height: 100px;
+			}
+			textarea,input{
+				border-radius: 3px;
+				background-color: #FFF;
+				width: 100%;
+				margin-bottom: 20px;
+				padding:10px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing:border-box;
+				-box-sizing:border-box;
+				border:1px solid #FFF;
+				text-align: center;
+			}
+			button{	
+				width: 100%;
+				padding: 10px 15px 10px 15px;
+				margin-left: 10px;
+				margin-top: 20px;
+				background-color: blue;
+				opacity:0.9;
+				font-size: 15px;
+				color: #FFFF;
+				font-family: "assistant";
+				text-align: center;
+				text-decoration: none;
+				border:none;
+			}
+			button:hover{
+				background-image: linear-gradient(#11FC2A, #09B41B 50%,#11FC2A);
+			}
+			@media screen and(max-width: 800px){
+
+			}
+			@media screen and (max-width:599px){
+			form{
+				width: 90%;
+				}
+			button{
+				margin-left: 0;
+			}
+			}
+			@media screen and (max-width:470px){
+				main{
+					width: 98%;
+					}
+			}

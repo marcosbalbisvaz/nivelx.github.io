@@ -1,0 +1,140 @@
+/* main*/
+main
+{ height: 500px;
+	overflow-y: hidden; 
+	overflow-x: hidden;
+}
+main:hover{
+	overflow-y: scroll; 
+	overflow-x: hidden;
+}/*panel de informacion*/
+.cuadrante{
+	background-color: #FFFF;
+	opacity: 0.7;
+	width: 600px;
+	height:400px;
+	margin-top: 30px;
+	margin-left: 60px;
+	padding: 40px 20px;
+	opacity: 0.8;
+	border-radius: 200px;
+	border-bottom: solid 1px #FFFF;
+	margin-left: 100px;
+}
+.cuadrante p{
+	font-family: "Open Sans";
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	font-size: 15px;
+	width: 400px;
+	height: 100px;
+	margin-left: 100px;
+}
+.cuadrante h1{
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	border-bottom: solid 2px;
+	background-color: #FFFF;
+}
+.cuadrante>figure>figcaption{
+	text-align: center;
+	font-family: kanit;
+	font-style: bold;
+	font-size: 18px;
+	text-decoration: underline;
+}
+.cuadrante figure a img{
+	width: 75%;
+	margin-top: 10px;
+	margin-left: 85px;
+}
+/*aside derecho*/
+.lat1{
+	padding-top: 100px;
+	width: 200px;
+	height:400px;
+	float:left;
+	border: solid 3px #FFFF;
+	margin:0;
+	opacity:0.8;
+	margin-top: 30px;
+	text-align: center;
+
+	}
+.lat1 img{
+	margin-top:10px auto;
+	width: 100%;
+}
+.lat1 figure{
+	color: #FFFF;
+	font-family: "Open Sans";
+}
+/* aside izquierdo*/
+.lat2{
+	padding-top: 100px;
+	width: 200px;
+	height:400px;
+	float:right;
+	border: solid 3px #FFFF;
+	margin:0;
+	opacity:0.8;
+	margin-right:30px;
+	margin-top: 30px;
+	text-align: center;
+}
+.lat2 img{
+	margin-top:10px auto;
+	width: 100%;
+}
+.lat2 figure{
+	color: #FFFF;
+	font-family: "Open Sans";  
+}
+@media screen and (max-width: 800px){
+main{
+	overflow: inherit;
+	margin-top: 600px;
+	position: block;
+	left: 20px;
+	}
+main:hover{
+	overflow:inherit;
+	}
+.cuadrante{
+	margin:auto;	
+	}
+footer{
+	position: absolute;
+	top:1700px;
+	}
+}
+@media screen and (max-width:599px) {
+	main{
+	overflow: inherit;
+	margin-top: 600px;
+	position: block;
+	left: 20px;
+	}
+main:hover{
+	overflow:inherit;
+}
+.cuadrante{
+	width: 90%;
+	margin-left: 20px;
+}
+.cuadrante >p{
+	font-size: 90%;
+	width: 75%;
+	margin-left: 65px;
+}
+@media screen and (min-width:470px){
+	.cuadrante{
+		margin-left:0;
+	}
+	aside{
+		width: 50%
+	}
+
+}

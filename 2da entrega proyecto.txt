@@ -1,0 +1,11 @@
+para esta segunda entrega 
+tuve muchos errores con las medidas de cada contenedor, llegue a la conclucion que es mejor poner todas las medidas en porcentaje igual que las letras en em,
+me resulto imposible cumplir con mis diseños conceptuales tal cual lo habia planificado. empezando que  por una cuestion de espacios puse la barra de
+navegacion dentro del header esto me permitio ganar mucho espacio para mas contenido en el body.
+otra cosa que me complico mucho fue que dentro del juego battlefieldv. puse una tabla con todos los requerimientos del sistema. pero resulta que a la
+hora de adaptar la pagina para dispositiovos, esta tabla salia del main.logre solucionarlo bajando las medidas  de la pagina standar.
+las medias queries que aplique fueron para resoluciones de 800px, 599px, 470px.
+en algunas medidas querie no considere ajustar nada a dispositivos ya que en mi opinion no estaban fuera de margenes.
+como primer experiencia  me siento satisfecho,si bien puede que tenga algunos errores, es la primera vez que lo hago.me guardo los erorres que me 
+sirven de experiencia para otras futuras paginas que haga,
+saludos!

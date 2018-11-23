@@ -1,0 +1,12 @@
+@media screen and (min-width:500px) and (max-width 800px) {
+	#listado ul li{
+	widht:33.33%
+}
+@media screen and (min-width:470px) and (max-width 899px) {
+	#listado ul li{
+	widht:50%
+}
+@media screen and (min-width:469px)  {
+	#listado ul li{
+	widht:100%
+}
